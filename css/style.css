@@ -15,6 +15,11 @@
 #top-header{
 min-height:35px;
 }
+
+/*? naavbar  */
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
 /*! main > sections*/
 
 #secondary-jumbotron .row,
