@@ -16,6 +16,10 @@ min-height:30px;
 #primary-jumbotron .row{
     min-height: 500px;
 }
+#gallery-light .row{
+    min-height: 150px;
+    background-color: orange;
+}
 
 .jumbo-bg{
     margin-top: 100px;
@@ -34,4 +38,5 @@ min-height:30px;
 section [class*="col"]{
     background-color: blueviolet;
     /* min-height: 500px; */
+    border: 2px solid black;
 }
