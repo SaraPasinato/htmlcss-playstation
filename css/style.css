@@ -43,7 +43,6 @@ min-height:35px;
 
 #gallery-light{
     min-height: 20vh;
-    background-color: aqua;
 }
 
 
@@ -60,12 +59,12 @@ min-height:35px;
     background-color: goldenrod;
 }
 
-
+/* #gallery-light .row*/
 #discounts .row,
 #social .row,
 #secondary-console .row,
-#primary-console .row,
-#gallery-light .row{
+#primary-console .row
+{
     min-height: 150px;
     background-color: orange;
 }
@@ -86,7 +85,7 @@ min-height:35px;
 
 
 .jumbo-bg-first{
-    margin-top: 100px;
+    margin-top: 120px;
     background-image: url('../img/jumbo-bg.png');
     min-height: 50vh;
     background-repeat: no-repeat;
@@ -101,6 +100,11 @@ min-height:35px;
     background-position: center;
     background-size: cover;
 }
+
+
+.rounded-5{
+    border-radius: 20px;
+}
 /*! background color & color */
 h1{
     font-size: 2.5em;
@@ -109,6 +113,11 @@ h1{
 
 .bg-red{
     background-color: #cd3d0f;
+}
+
+.active-card{
+    border: 2px solid #0d6efd;
+    padding: 2px;
 }
 
 
