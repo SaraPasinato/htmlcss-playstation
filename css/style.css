@@ -13,17 +13,40 @@
 min-height:30px;
 }
 /*! main > sections*/
+#secondary-jumbotron .row,
 #primary-jumbotron .row{
     min-height: 500px;
 }
+#gallery-light{
+    min-height: 20vh;
+    background-color: aqua;
+}
+
+#primary-console{
+    min-height: 130vh;
+    background-color: aqua; 
+}
+
+#primary-console .row,
 #gallery-light .row{
     min-height: 150px;
     background-color: orange;
 }
 
-.jumbo-bg{
+
+
+
+.jumbo-bg-first{
     margin-top: 100px;
     background-image: url('../img/jumbo-bg.png');
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.jumbo-bg-second{
+  
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     min-height: 50vh;
     background-repeat: no-repeat;
     background-position: top;
