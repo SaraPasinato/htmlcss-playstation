@@ -1,3 +1,7 @@
+/*utils */
+#logo-sony{
+    max-width: 100px;
+}
 /*! main-header*/
 #main-header{
     min-height: 10vh;
@@ -6,11 +10,10 @@
     position: fixed;
     top:0;
     left:0;
-
 }
 
 #top-header{
-min-height:30px;
+min-height:35px;
 }
 /*! main > sections*/
 
