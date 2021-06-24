@@ -53,8 +53,7 @@ min-height:35px;
 
 
 #now .row,
-#plus .row,
-#gallery-dark .row{
+#plus .row{
     min-height: 30vh;
     background-color: goldenrod;
 }
@@ -111,8 +110,14 @@ h1{
     font-weight: 400;
 }
 
+p{
+    font-size: 12px;
+}
 .bg-red{
     background-color: #cd3d0f;
+}
+.bg-black{
+    background-color: #1f1f1f;
 }
 
 .active-card{
