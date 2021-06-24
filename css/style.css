@@ -1,3 +1,18 @@
-*{
+/*! main-header*/
+#main-header{
+    min-height: 100px;
+    min-width: 100%;
     background-color: aqua;
+    position: fixed;
+    top:0;
+    left:0;
+
 }
+
+#top-header{
+    height:30px;
+}
+/*! main > sections*/
+/*! main-footer*/
+/*! background images*/
+/*! background color & color */
