@@ -64,6 +64,18 @@ min-height:30px;
 
 
 
+/*! main-footer*/
+#main-footer{
+    min-height: 60vh;
+    background-color: palevioletred; 
+}
+#main-footer .row{
+    min-height: 150px;
+    background-color: orange;
+}
+
+/*! background images*/
+
 
 .jumbo-bg-first{
     margin-top: 100px;
@@ -81,12 +93,17 @@ min-height:30px;
     background-position: center;
     background-size: cover;
 }
-/*! main-footer*/
-/*! background images*/
 /*! background color & color */
 
 /* my color */
 
+#main-footer [class*="col"] [class*="col"]{
+    background-color: green;
+    /* min-height: 500px; */
+    border: 2px solid black;
+}
+
+#main-footer [class*="col"],
 section [class*="col"]{
     background-color: blueviolet;
     /* min-height: 500px; */
