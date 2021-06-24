@@ -18,11 +18,20 @@ min-height:30px;
 #primary-jumbotron .row{
     min-height: 500px;
 }
+
+#discounts,
+#social,
 #secondary-console,
 #gallery-dark{
     min-height: 60vh;
     background-color: aqua;
 }
+
+#now,
+#plus{
+    min-height: 40vh;
+    background-color: aqua;
+} 
 
 #gallery-light{
     min-height: 20vh;
@@ -36,10 +45,16 @@ min-height:30px;
 }
 
 
+#now .row,
+#plus .row,
 #gallery-dark .row{
     min-height: 30vh;
     background-color: goldenrod;
 }
+
+
+#discounts .row,
+#social .row,
 #secondary-console .row,
 #primary-console .row,
 #gallery-light .row{
@@ -63,7 +78,7 @@ min-height:30px;
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     min-height: 50vh;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
 }
 /*! main-footer*/
