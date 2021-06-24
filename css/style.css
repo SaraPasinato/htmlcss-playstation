@@ -17,6 +17,12 @@ min-height:30px;
 #primary-jumbotron .row{
     min-height: 500px;
 }
+
+#gallery-dark{
+    min-height: 60vh;
+    background-color: aqua;
+}
+
 #gallery-light{
     min-height: 20vh;
     background-color: aqua;
@@ -25,6 +31,11 @@ min-height:30px;
 #primary-console{
     min-height: 130vh;
     background-color: aqua; 
+}
+
+#gallery-dark .row{
+    min-height: 30vh;
+    background-color: goldenrod;
 }
 
 #primary-console .row,
