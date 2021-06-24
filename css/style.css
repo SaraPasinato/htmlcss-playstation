@@ -59,7 +59,7 @@ min-height:35px;
     background-color: goldenrod;
 }
 
-/* #gallery-light .row*/
+
 #discounts .row,
 #social .row,
 #secondary-console .row,
@@ -133,5 +133,5 @@ h1{
 section [class*="col"]{
     /* background-color: blueviolet; */
     /* min-height: 500px; */
-    border: 2px solid #fff;
+    border: 2px solid greenyellow;
 }
