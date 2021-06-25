@@ -55,7 +55,6 @@ min-height:35px;
 }
 
 
-
 #now .row,
 #plus .row{
     min-height: 30vh;
@@ -67,7 +66,7 @@ min-height:35px;
 #social .row,
 #secondary-console .row
 {
-    min-height: 25vh;
+    min-height: 20vh;
     /* background-color: orange; */
 }
 

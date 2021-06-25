@@ -1,3 +1,11 @@
+ /* md devices (tablets, 1200px and up) */
+@media (min-width: 768px) { 
+ #social img{
+     max-width: 150px;
+     max-height: 150px;
+ }
+}
+
  /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
  #secondary-jumbotron img,
