@@ -1,4 +1,4 @@
- /* md devices (tablets, 1200px and up) */
+ /* md devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
  #social img{
      max-width: 150px;
