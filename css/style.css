@@ -128,6 +128,9 @@ min-height:35px;
  #show-me img:not([class*='active-bottom']){
     filter:opacity(0.5);
 }
+ #show-me img:not([class*='active-bottom']):hover{
+    filter:opacity(1);
+}
 #footer-links ul{
     padding-top: 20px;
 }
