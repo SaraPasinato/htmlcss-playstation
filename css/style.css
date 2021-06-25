@@ -84,6 +84,9 @@ min-height:35px;
     min-height: 20vh;
 }
 
+#gallery-light img:hover{
+    transform: translateY(-10px);
+}
 /*! main-footer*/
 #main-footer{
     min-height: 60vh;
