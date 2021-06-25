@@ -111,6 +111,9 @@ min-height:35px;
     border-radius: 20px;
 }
 
+ #show-me img:not([class*='active-bottom']){
+    filter:opacity(0.5);
+}
 #footer-links ul{
     padding-top: 20px;
 }
