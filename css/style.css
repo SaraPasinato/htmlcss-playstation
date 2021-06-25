@@ -2,6 +2,7 @@
 .w-logo{
     max-width: 100px;
 }
+
 /*! main-header*/
 #main-header{
     min-height: 10vh;
@@ -34,11 +35,6 @@ min-height:35px;
     min-height: 60vh;
 }
 
-#now,
-#plus{
-    min-height: 40vh;
-    background-color: aqua;
-}
 
 #gallery-light{
     min-height: 20vh;
@@ -54,13 +50,21 @@ min-height:35px;
     min-height: calc(80vh / 3);
 }
 
+#now,
+#plus{
+    min-height: 40vh;
+    /* background-color: aqua; */
+}
 
 #now .row,
 #plus .row{
     min-height: 30vh;
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
 }
-
+ 
+#plus img{
+    max-width:100%;
+}
 
 #discounts .row,
 #social .row,
@@ -105,6 +109,10 @@ min-height:35px;
 .rounded-5{
     border-radius: 20px;
 }
+/*! btn*/
+#plus .btn.btn-link{
+    text-decoration: none;
+}
 /*! background color , color  & fonts*/
 h1{
     font-size: 2.5em;
@@ -121,6 +129,12 @@ h1{
 }
 .bg-black{
     background-color: #1f1f1f;
+}
+.bg-beige{
+    background-color: #bebcbb;
+}
+.bg-light-beige{
+    background-color: #d9dadc;
 }
 
 .active-card{
