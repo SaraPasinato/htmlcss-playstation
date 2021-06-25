@@ -32,14 +32,13 @@ min-height:35px;
 #secondary-console,
 #gallery-dark{
     min-height: 60vh;
-    background-color: aqua;
 }
 
 #now,
 #plus{
     min-height: 40vh;
     background-color: aqua;
-} 
+}
 
 #gallery-light{
     min-height: 20vh;
@@ -47,9 +46,14 @@ min-height:35px;
 
 
 #primary-console{
-    min-height: 130vh;
-    background-color: aqua; 
+    min-height: 100vh;
+
 }
+#primary-console .row
+{
+    min-height: calc(80vh / 3);
+}
+
 
 
 #now .row,
@@ -61,11 +65,10 @@ min-height:35px;
 
 #discounts .row,
 #social .row,
-#secondary-console .row,
-#primary-console .row
+#secondary-console .row
 {
-    min-height: 150px;
-    background-color: orange;
+    min-height: 200px;
+    /* background-color: orange; */
 }
 
 
@@ -73,7 +76,7 @@ min-height:35px;
 /*! main-footer*/
 #main-footer{
     min-height: 60vh;
-    background-color: palevioletred; 
+    background-color: palevioletred;
 }
 #main-footer .row{
     min-height: 150px;
@@ -92,7 +95,7 @@ min-height:35px;
     background-size: cover;
 }
 .jumbo-bg-second{
-  
+
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     min-height: 50vh;
     background-repeat: no-repeat;
@@ -100,18 +103,19 @@ min-height:35px;
     background-size: cover;
 }
 
-
 .rounded-5{
     border-radius: 20px;
 }
-/*! background color & color */
+/*! background color , color  & fonts*/
 h1{
     font-size: 2.5em;
     font-weight: 400;
 }
 
-p{
+#gallery-dark p{
     font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
 }
 .bg-red{
     background-color: #cd3d0f;
@@ -122,6 +126,11 @@ p{
 
 .active-card{
     border: 2px solid #0d6efd;
+    padding: 2px;
+}
+
+.active-bottom{
+    border-bottom: 2px solid #0d6efd;
     padding: 2px;
 }
 
