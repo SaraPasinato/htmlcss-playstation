@@ -31,7 +31,7 @@ min-height:35px;
    margin:0 5px ;
 }
 .btn-border:hover{
-    /*? width display flax btn:hover cause li bouncing*/
+    /*? width display flax btn:hover causing li bounce*/
     /* border: 0.5px solid #fff; */
     box-shadow: inset 0 0 0 2px #fff;
 }
@@ -146,6 +146,13 @@ min-height:35px;
 #footer-links li a{
     text-decoration: none;
     color: #fff;
+}
+
+.btn-border-plus:hover{
+    box-shadow:  0 0 20px 2px #fff;
+}
+.btn-border-now:hover{
+    box-shadow: inset 0 0 0 2px #161c3b;
 }
 /*! background color , color  & fonts*/
 h1{
