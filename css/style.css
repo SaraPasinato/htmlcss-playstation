@@ -88,8 +88,6 @@ min-height:35px;
     max-width:20%;
 }
 /*! background images*/
-
-
 .jumbo-bg-first{
     margin-top: 120px;
     background-image: url('../img/jumbo-bg.png');
@@ -117,26 +115,26 @@ min-height:35px;
 #footer-links ul{
     padding-top: 20px;
 }
-/*! btn*/
+/*! btn & link*/
 #plus .btn.btn-link{
     text-decoration: none;
-}
-
-/*! background color , color  & fonts*/
-h1{
-    font-size: 2.5em;
-    font-weight: 400;
 }
 
 #main-footer li {
     list-style-type: none;
 }
 
-
 #footer-links li a{
     text-decoration: none;
     color: #fff;
 }
+/*! background color , color  & fonts*/
+h1{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+
 #gallery-dark p{
     font-size: 12px;
     text-align: center;
@@ -171,5 +169,3 @@ h1{
     padding: 2px;
 }
 
-
-/* my color */
