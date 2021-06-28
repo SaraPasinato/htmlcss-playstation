@@ -21,7 +21,7 @@ body{
     min-width: 100%;
 
     position: fixed;
-    top:12vh;
+    top:10vh;
     left:0;
     background-color: aqua;
     visibility: collapse;
