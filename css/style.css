@@ -21,7 +21,7 @@ body{
     min-width: 100%;
 
     position: fixed;
-    top:11vh;
+    top:12vh;
     left:0;
     background-color: aqua;
     visibility: collapse;
@@ -35,7 +35,7 @@ body{
   min-width: 100%;
 }
 
-#main-header:hover #secondary-nav{
+#main-header:hover  #secondary-nav{
     visibility: visible;
 }
 
