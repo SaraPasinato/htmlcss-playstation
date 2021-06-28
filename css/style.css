@@ -10,7 +10,6 @@ body{
 #main-header{
     min-height: 10vh;
     min-width: 100%;
-
     position: fixed;
     top:0;
     left:0;
@@ -24,12 +23,21 @@ body{
     position: fixed;
     top:11vh;
     left:0;
-    z-index: 1;
     background-color: aqua;
+    visibility: collapse;
 }
 
 
+#first-nav {
+  position: fixed;
+  top:35px;
+  left:0;
+  min-width: 100%;
+}
 
+#main-header:hover #secondary-nav{
+    visibility: visible;
+}
 #top-header{
 min-height:35px;
 }
