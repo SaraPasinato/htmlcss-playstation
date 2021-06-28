@@ -1,0 +1,60 @@
+/* main */
+.wallpaper{
+min-height: 100vh;
+display: flex;
+align-items: center;
+padding-top: 40px;
+padding-bottom: 40px;
+background-image: url('../img/wallpaper.png');
+opacity: 1;
+
+}
+
+/* form */
+.form-signin{
+   width: 100%;
+   max-width: 400px;
+   padding: 15px;
+   margin: auto;
+  
+}
+
+/* head form */
+#min-head{
+    min-width: 100%;
+    min-height: 5vh;
+    position: relative;
+}
+#secondary-min-head{
+    min-width: 100%;
+    min-height: 8vh;
+   background-image: url('../img/logo_playstation.png');
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+
+/* box items */
+#items-form{
+    min-width: 100%;
+    min-height: 40vh;
+}
+.btn-close-white{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+/* fonts */
+#items-form p{
+    font-size: 0.8em;
+}
+
+#maps{
+    font-size: 0.6rem;
+}
+
+label{
+    color: #a5a4a4;
+}
