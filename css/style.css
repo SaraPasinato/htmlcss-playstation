@@ -41,7 +41,10 @@ body{
 
 #secondary-nav .row{
     min-width:100%;
+    min-height: 5vh;
 }
+
+
 #top-header{
 min-height:35px;
 }
