@@ -17,7 +17,7 @@ body{
 }
 
 #secondary-nav{
-    min-height: 10vh;
+    min-height: 5vh;
     min-width: 100%;
 
     position: fixed;
@@ -37,6 +37,10 @@ body{
 
 #main-header:hover #secondary-nav{
     visibility: visible;
+}
+
+#secondary-nav .row{
+    min-width:100%;
 }
 #top-header{
 min-height:35px;
